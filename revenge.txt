@@ -1,0 +1,15 @@
+*label revenge
+After surviving the chaos, you have a choice: take revenge on Alex or focus on survival.
+
+*if revenge >= 2
+    You plan a perfect revenge against Alex. Your anger fuels every move.
+*else
+    You decide to forgive him (for now) and focus on surviving the alien threat.
+
+*choice
+  #Confront Alex now.
+    You prepare to confront Alex, ready for confrontation.
+    *goto bossfight
+  #Focus on survival and escape.
+    You prioritize your safety, planning your next move carefully.
+    *goto bossfight

@@ -1,0 +1,17 @@
+*label betrayal
+Suddenly, Alex betrays you! Your heart aches as you realize something isn’t right.
+
+*if trust > 40
+    He hesitates and tries to explain himself. You feel conflicted.
+    *set revenge +1
+*else
+    He betrays you without warning. Anger surges through you.
+    *set revenge +2
+
+*choice
+  #Confront Alex immediately.
+    You glare at him, ready for revenge.
+    *goto aliens
+  #Focus on survival instead.
+    You decide to handle things later and escape the situation.
+    *goto aliens

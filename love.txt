@@ -1,0 +1,12 @@
+*label love
+Alex smiles at you. How do you respond?
+
+*choice
+  #Talk to him warmly.
+    *set trust +10
+    You approach Alex with a warm smile. Conversation flows easily, and you feel a spark of connection.
+    *goto betrayal
+  #Act distant.
+    *set trust -10
+    You keep your distance, responding coldly. Alex seems disappointed, and the mood is tense.
+    *goto betrayal

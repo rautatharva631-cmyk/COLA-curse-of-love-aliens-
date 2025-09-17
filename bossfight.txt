@@ -1,0 +1,18 @@
+*label bossfight
+The ultimate alien appears, towering and menacing. This is your final challenge.
+
+*choice
+  #Attack with full power.
+    *if power > 50
+        You strike with all your strength. The alien falls, defeated spectacularly!
+        *finish
+    *else
+        You attack, but your strength isn’t enough. You barely escape alive.
+        *finish
+  #Negotiate.
+    *if charm > 5
+        Using your charm, you convince the alien to leave peacefully. Victory without a fight!
+        *finish
+    *else
+        The alien refuses your plea. A battle ensues, and you barely survive.
+        *finish

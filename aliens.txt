@@ -1,0 +1,12 @@
+*label aliens
+Suddenly, the sky darkens. Aliens descend from above, their ships glowing ominously. Your heart races as chaos erupts around you.
+
+*choice
+  #Fight bravely.
+    *set courage +2
+    You grab whatever you can and fight back against the alien attackers. You survive some attacks, but barely.
+    *goto revenge
+  #Hide quietly.
+    *set courage -1
+    You find a hiding spot and stay quiet, hoping the aliens pass by. You escape, but others are captured.
+    *goto revenge
